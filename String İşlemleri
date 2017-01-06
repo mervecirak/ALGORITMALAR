@@ -1,0 +1,13 @@
+string yazi = "merve";
+
+MessageBox.Show(yazi); // yazıyı gösterir
+
+MessageBox.Show(yazi.Length); //yazının uzunluğunu verir 
+
+string isim = "merve";
+MessageBox.Show(isim.ToUpper()); //Çıktı olarak "MERVE" yazar.
+
+
+	string isim = "MERVE";
+MessageBox.Show(isim.ToLower()); //Çıktı olarak "merve" yazar.
+
