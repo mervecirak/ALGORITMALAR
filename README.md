@@ -1,1 +1,1 @@
-# DinamikDizi
+# algoritmalar
