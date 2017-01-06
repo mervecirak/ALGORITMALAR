@@ -1,0 +1,9 @@
+Queue REHBER= new Queue();
+REHBER.Enqueue("merve çırak");
+ REHBER.Enqueue("Gökalp kanlı ");
+ REHBER.Enqueue("Büşra polat");
+ REHBER.Enqueue("erhan çınar"); 
+REHBER.Enqueue("uğur kaya");
+ REHBER.Enqueue("merve 2 ");
+Console.WriteLine("İşleme yapılan isim  "+ REHBER.Dequeue()); 
+Console. WriteLine("Sıradaki isim "+ REHBER.Peek());
