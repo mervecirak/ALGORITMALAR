@@ -1,0 +1,6 @@
+Stack tek= new Stack(); 
+tek.Push("merve"); 
+tek.Push("merve çırak"); 
+tek.Push("merve çırak algoritma");
+ tek.Push("merve çırak algoritma ödeb"); 
+Console.WriteLine(tek.Pop());
