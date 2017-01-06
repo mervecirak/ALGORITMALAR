@@ -1,0 +1,40 @@
+
+static void Main(string[] args)
+{
+ArrayList isimlistesi = new ArrayList();
+bayrak:
+Console.Clear();
+Console.Write("\n1-İsim Kaydet\n2-İsim Göster\nSeçim = ");
+byte secim = Convert.ToByte(Console.ReadLine());
+switch (secim)
+{
+case 1:
+Console.Write("---------------------\nİsim Giriniz : ");
+isimstring kisi = Console.ReadLine();
+isimlistesi.Add(isim);
+goto donbasa;
+
+case 2:
+Console.WriteLine("---------------------\nKayıtlı isimler");
+Console.WriteLine("");
+foreach (string goster in isimlistesi)
+{
+
+Console.WriteLine("         " + goster);
+}
+Console.Write("--------------------\nAna Menü'ye Dönmek İçin 0'a Basınız = ");
+byte anamenu = Convert.ToByte(Console.ReadLine());
+switch (anamenu)
+{
+default:
+Console.WriteLine("Hatalı Giriş Yaptınız !!!! ");
+goto donbasa;
+case 0:
+goto bayrak;
+}
+}
+
+Console.ReadKey();
+}
+
+
